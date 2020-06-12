@@ -14,14 +14,14 @@ C:\Users\Administrator\Desktop> git clone https://github.com/HiiragiMatu/Leetcod
 
 C:\Users\Administrator\Desktop> cd LeetcodePractice
 
-C:\Users\Administrator\Desktop> git init
+C:\Users\Administrator\Desktop\LeetcodePractice> git init
 
-C:\Users\Administrator\Desktop> git remote add "Name You Like" https://github.com/HiiragiMatu/LeetcodePractice
+C:\Users\Administrator\Desktop\LeetcodePractice> git remote add "Name You Like" https://github.com/HiiragiMatu/LeetcodePractice
 
-C:\Users\Administrator\Desktop> git add LeetcodePractice
+C:\Users\Administrator\Desktop\LeetcodePractice> git add LeetcodePractice
 
-C:\Users\Administrator\Desktop> git commit -m "n-th commits or other comments , whatever"
+C:\Users\Administrator\Desktop\LeetcodePractice> git commit -m "n-th commits or other comments , whatever"
 
-C:\Users\Administrator\Desktop> git push -u "Name You Like" master
+C:\Users\Administrator\Desktop\LeetcodePractice> git push -u "Name You Like" master
 
 Note: When you want to push more times, the last command could be just "git push"
