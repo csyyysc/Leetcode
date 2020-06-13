@@ -4,6 +4,9 @@
 /*If you can’t give up on what you love, you must work harder to let others understand.*/
 
 /*Refer to https://www.twblogs.net/a/5c25f924bd9eee16b3db85a1*/
+/*The url below also provides a good insight regarding this question 
+https://www.itread01.com/content/1548431852.html
+*/
 
 /*As a matter of fact, I still not really understand why the last flag if-else condition 
 should set returnArray[0] = 1. What if the array is [2,3,9], it would not making sense if 
