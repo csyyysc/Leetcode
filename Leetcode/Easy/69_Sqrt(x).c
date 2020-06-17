@@ -24,9 +24,9 @@ int mySqrt(int x)
         if(mid == x/mid)
             return mid;
         else if(mid < x/mid)
-             left = mid + 1;
+             l = mid + 1;
         else 
-             right = mid - 1;
+             r = mid - 1;
         /*
         Also, it could be written as followed:
         int t = mid * mid;
@@ -54,5 +54,5 @@ int mySqrt(int x)
     }
 
     */
-    return left - 1;
+    return l - 1;
 }
