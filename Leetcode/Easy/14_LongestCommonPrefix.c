@@ -18,7 +18,7 @@ char* longestCommonPrefix(char ** strs, int strsSize)
         flow and compare with each char like, f,l,o,w.*/
         
         j = 0;
-        /*str[0] -> "flower" strs[1][0] -> "f" */
+        /*str[0] -> "flower" strs[1][0] -> "f"*/
         while(str[j] && strs[i][j] && str[j]==strs[i][j])
         {
             j++;
