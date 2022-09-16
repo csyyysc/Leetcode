@@ -6,4 +6,8 @@ const generate = function (numRows) {
     const triangle = [];
 
     if (numRows === 1) return triangle.push([1]);
+    
+    while(numRows) {
+        triangle.push()
+    }
 };
