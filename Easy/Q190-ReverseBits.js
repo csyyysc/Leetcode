@@ -11,7 +11,6 @@ var reverseBits = function(n) {
         const reversedBit = bit << (31 - i); // Shift last bit of n to the left
         result |= reversedBit; // Insert the reversed last bit of n into result
         n >>>= 1; // Drop the last bit of n
-        console.log(bit, reversedBit, result, n);
     }
     return result >>> 0; // Convert the result to an unsinged 32-bit int
 };
