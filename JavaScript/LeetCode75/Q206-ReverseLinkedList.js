@@ -14,6 +14,5 @@ const reverseList = (head, prev = null) => {
     if(!head) return prev;
     let next = head.next;
     head.next = prev;
-    console.log(next, head, prev);
     return reverseList(next, head);
 }
