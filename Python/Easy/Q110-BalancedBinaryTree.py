@@ -4,6 +4,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         def dfs(node):
