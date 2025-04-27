@@ -1,0 +1,25 @@
+class Solution {
+    public:
+        uint32_t reverseBits(uint32_t n) {
+            uint32_t r_n = 0;
+    
+            for (int i = 0; i < 32; ++i) {
+                r_n <<= 1;
+                r_n |= (n & 1);
+                n >>= 1;
+            }
+    
+            return r_n;
+        }
+
+        uint32_t reverseBitsOpt(uint32_t n) {
+            uint32_t r_n = 0;
+    
+            for (int i = 0; i < 32; ++i) {
+                r_n |= (((n >> i) & 1) << (31 - i));
+            }
+    
+            return r_n;
+        }
+    };
+    
