@@ -32,19 +32,7 @@ public:
             cur = cur->next;
         }
 
-        while (list1)
-        {
-            cur->next = new ListNode(list1->val);
-            list1 = list1->next;
-            cur = cur->next;
-        }
-
-        while (list2)
-        {
-            cur->next = new ListNode(list2->val);
-            list2 = list2->next;
-            cur = cur->next;
-        }
+        cur->next = list1 ? list1 : list2;
 
         return list->next;
     }
